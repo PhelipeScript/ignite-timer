@@ -12,7 +12,7 @@ export function App() {
     <ThemeProvider theme={defaultTheme}>
       <BrowserRouter>
         <CyclesContextProvider>
-          <Router /> || <DefaultLayout />
+          <Router />
         </CyclesContextProvider>
       </BrowserRouter>
 
